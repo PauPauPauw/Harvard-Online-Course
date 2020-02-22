@@ -1,0 +1,84 @@
+
+h1 {
+  color:blue;
+  text-align: center;
+}
+
+p {
+  color: red;
+}
+
+div{
+  background-color: teal;
+  width: 200px;
+  height: 400px;
+  margin: 30px;
+
+  /* Margin makes a border around the color box and creates distance to the
+  border of the site
+  */
+
+  padding: 20px;
+
+  /* Padding makes a border around the tesxt and creates distance to the
+  border of the Colorbox
+  */
+
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  
+
+  border: 3px solid blue
+  /* or for example:
+  border: 5px dotted red
+  */
+
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th{
+  background-color: lightgray;
+}
+
+td{
+
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+/*
+Ich kann auch, anstatt zweimal das Gleiche zu schreiben, auch einfach:
+th, td {...}
+schreiben und es wird für beide der command in dern Klammern verwendet!
+*/
+
+
+#top {
+  font-size: 36px;
+}
+
+#middle {
+  font-size: 24px;
+}
+
+#bottom {
+  font-size: 12px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+/*
+Alle # Zeichen sprechen ID´s an
+Alle .Irgendwas (also mit dem Punkt) spreche ich eine Klasse an!
+*/
